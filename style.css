@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #FFCD9E;
+}
+
+.s_1 {
+  display: flex;
+  padding: 50px;
+}
+
+.s_2 {
+  position: fixed;
+
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  bottom: 0;
+}
+
+.a1 {
+  flex: 70%;
+  padding: 20px;
+}
+
+.a2 {
+  flex: 30%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 50px;
+}
+
+.a2 img {
+  padding-right: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  padding: 15px;
+  padding-left: 140px;
+}
+
+.t_1 {
+  flex: 50%;
+  padding: 20px;
+  padding-left: 140px;
+}
+
+
+.t_2 {
+  flex: 50%;
+  padding: 20px;
+  padding-right: 140px;
+}
+
+.sideone {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  display: flex;
+
+}
+
+.container ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.container ul li {
+  padding: 3px 30px;
+}
+
+input {
+  color: black;
+  padding: 8px 22px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+button {
+  color: #2e2c2c;
+  padding: 8px 22px;
+  border-radius: 6px;
+  background: rgb(56, 55, 55);
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.96)
+}
+
+.data_1{
+ font-size: 45px;
+}
+
+.p_1 {
+ position: fixed;
+ left: 0;
+ width: 100%;
+ background-color: black;
+ color: white;
+ padding: 30px;
+}
+
+@media (max-width: 600px) {
+ .s_1 {
+   flex-direction: column;
+   padding: 20px;
+ }
+
+ .s_2 {
+   position: relative;
+   padding: 20px;
+ }
+
+ .a1,
+ .a2,
+ .t_1,
+ .t_2 {
+   flex: 100%;
+   padding: 20px;
+   padding-left: 0;
+   padding-right: 0;
+ }
+
+ .text {
+   padding-left: 20px;
+ }
+ 
+ .a2 img {
+   padding-right: 0;
+ }
+}
